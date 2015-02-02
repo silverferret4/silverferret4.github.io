@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	  <!-- CSS -->
+	  <link rel="stylesheet" href="/css/master.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Contains <header> tag -->
+    {% include header.html %}
+    <!-- Content wrapped in div with id="content" -->
+    {{ content }}
+    <!-- Contains <footer> tag -->
+    {% include footer.html %}
+  </body>
+</html>
